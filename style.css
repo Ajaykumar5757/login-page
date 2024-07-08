@@ -1,43 +1,45 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding-top: 60px;
 }
-
-.first{
-    padding: 100px 150px;
-}
-
-.middle{
-    margin: 50px;
-    padding: 5px 200px;
-}
-
-.last{
-    border: 15px solid rgb(110, 11, 230);
-    padding: 70px 150px;
+form{
+    max-width: 300px;
+    margin: 40px auto;
+    box-shadow: 0px 2px 4px black ;
+    padding:40px;
+    border: 10px solid rgb(0, 153, 249);
+    background-color: rgb(159, 234, 209);
 }
 
 label{
     display: block;
-    margin: 0px auto;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
 }
 
 input{
-    padding:5px;
-    width: 100%;
+    padding:10px;
+    width: 90%;
     margin-bottom: 20px;
 }
 
 .btn{
     color: white;
-    background-color: rgb(100, 16, 219) ;
-    width:102%;
-    padding:5px;
+    background-color: rgb(0, 153, 249) ;
+    width:98%;
+    padding:10px;
+    margin: 5px 0px;
 }
 
 .profile{
-    width:50px;
-    height: 50px;
-    padding-left: 200px;
+    width:100px;
+    height: 100px;
+    padding-left: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(0, 107, 0);
+    color: white;
 }
